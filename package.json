@@ -1,0 +1,19 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "News Scrapping app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csherrod/News.git"
+  },
+  "author": "Cody Sherrod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csherrod/News/issues"
+  },
+  "homepage": "https://github.com/csherrod/News#readme"
+}
