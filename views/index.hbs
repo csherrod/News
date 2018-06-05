@@ -4,13 +4,34 @@
         <div class="container">
           <h1 class="display-4">Business Insider News Scraper</h1>
           <p class="lead">Get the articles, save your favs and make some comments.</p>
+          <br>
+          <button type="button" class="btn new">Get Articles</button>
+          <button type="button" class="btn clear">Clear Articles</button>
         </div>
       </div>
       <hr>
       <div class="row">
+          <div class="col">
           <div class="articles">
+              <p>Here's where to put some articles</p>
+              <ul>
+              {{#each article}}
+              <li>
+                  <p class="title">Title: {{this.title}}</p>
+                  <ul>
+                  <a href="{{this.link}}" class="link">Link to Article</a>
+                  </ul>
+                  <br>
+                  <button type="button" class="btn comment" id="{{this._id}}">Comment</button>
+                  <button type="button" class="btn save" id="{{this._id}}">Save</button>
+              </li>
+              <hr>
+              {{/each}}
+              </ul>
               <ol id="results"></ol>
           </div>
       </div>
+      </div>
+      <hr>
 </div>
 {{>footer/foot}}

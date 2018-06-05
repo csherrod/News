@@ -1,0 +1,70 @@
+/* Body */
+
+
+/* ************************************************************* */
+/* NavBar */
+.navbar {
+    background-color: #1F607B;
+    color: #ffffff;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    color: aquamarine;
+}
+
+
+/* ************************************************************* */
+/*Footer*/
+.footer {
+    background-color: #1F607B;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+.foot {
+    color: #d0cbcb;
+}
+#logo2 {
+    height: 40px;
+    width: 80px;
+}
+
+/* ************************************************************* */
+/*HomePage*/
+#home {
+    text-align: center;
+    background-image: url('assets/images/BI_Logo2.png');
+    background-color: #1F607B;
+    color: #ffffff;
+}
+.articles {
+    color: #ffffff;
+    background-color: #1F607B;
+}
+.new {
+    padding: 2px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #C7C028;
+}
+.clear {
+    padding: 2px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #a10a0f;
+}
+.comment {
+    padding: 2px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #88303F;
+}
+.save {
+    padding: 2px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #C7C028;
+}
