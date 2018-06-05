@@ -12,9 +12,12 @@ var cheerio = require("cheerio");
 //Require all models
 var db = require("./models/Article.js");
 
+var port = process.env.PORT || 5000;
+
 // Initialize Express
 var app = express();
 
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/BI";
 //Connect to the Mongo DB
 mongoose.Promise = Promise;
 mongoose.connect("mongodb://localhost/BI");
